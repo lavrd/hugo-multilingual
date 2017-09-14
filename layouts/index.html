@@ -9,18 +9,19 @@
 
 <p>{{ .Content }}</p>
 
-<h3>Sections</h3>
+<h3>{{ i18n "sections" }}</h3>
 {{ range .Sections }}
 <li>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
 </li>
 {{ end }}
 
-<h3>Pages</h3>
-{{ range .Data.Pages }}
-<li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-</li>
-{{ end }}
+{{ partial "pages_list.html" . }}
+
+<hr>
+{{ partial "i18nlist.html" . }}
+<hr>
+
+{{ .Site.Title }} | {{ .Site.Copyright }}
 </body>
 </html>

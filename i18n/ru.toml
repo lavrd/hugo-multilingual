@@ -1,0 +1,20 @@
+[homepage]
+other = "Домашняя страница"
+
+[prev]
+other = "Назад"
+
+[next]
+other = "Вперед"
+
+[top_of_baseof]
+other = "Верх baseof"
+
+[bottom_of_baseof]
+other = "Низ baseof"
+
+[sections]
+other = "Секции"
+
+[pages]
+other = "Страницы"

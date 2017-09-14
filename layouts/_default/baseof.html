@@ -5,14 +5,16 @@
 </head>
 
 <body>
-Top of baseof
+{{ i18n "top_of_baseof" . }}
 <hr>
 
 <h1>{{ .Title }}</h1>
 
 {{ block "main" . }}{{ end }}
 
+{{ partial "i18nlist.html" . }}
+
 <hr>
-Botton of baseof
+{{ i18n "bottom_of_baseof" }}
 </body>
 </html>

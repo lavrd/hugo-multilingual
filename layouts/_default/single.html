@@ -3,20 +3,20 @@
 
 <hr>
 {{ if .PrevInSection }}
-<a href="{{ .PrevInSection.Permalink }}">Prev</a>
+<a href="{{ .PrevInSection.Permalink }}">{{ i18n "prev" }}</a>
 {{ else }}
-Prev
+{{ i18n "prev" }}
 {{ end }}
 
 |
 
 {{ if .NextInSection }}
-<a href="{{ .NextInSection.Permalink}}">Next</a>
+<a href="{{ .NextInSection.Permalink}}">{{ i18n "next" }}</a>
 {{ else }}
-Next
+{{ i18n "next" }}
 {{ end }}
 
 <hr>
 <a href="../">{{ .Parent.Title }}</a>
-<a href="/">Homepage</a>
+{{ partial "homepage_link.html" . }}
 {{ end }}

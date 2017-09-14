@@ -1,1 +1,11 @@
+baseURL = "http://127.0.0.1:1313/"
+copyright = "MIT"
 
+[languages]
+[languages.en]
+title = "Hugo multilingual site"
+weight = 1
+
+[languages.ru]
+title = "Hugo многоязычный сайт"
+weight = 2

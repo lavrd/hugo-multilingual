@@ -1,0 +1,7 @@
+<h3>{{ i18n "pages" }}</h3>
+
+{{ range .Data.Pages }}
+<li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}

@@ -1,0 +1,20 @@
+[homepage]
+other = "Homepage"
+
+[prev]
+other = "Prev"
+
+[next]
+other = "Next"
+
+[top_of_baseof]
+other = "Top of baseof"
+
+[bottom_of_baseof]
+other = "Bottom of baseof"
+
+[sections]
+other = "Sections"
+
+[pages]
+other = "Pages"
