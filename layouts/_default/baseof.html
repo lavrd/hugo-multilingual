@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ .Title }}</title>
+</head>
+
+<body>
+Top of baseof
+<hr>
+
+<h1>{{ .Title }}</h1>
+
+{{ block "main" . }}{{ end }}
+
+<hr>
+Botton of baseof
+</body>
+</html>

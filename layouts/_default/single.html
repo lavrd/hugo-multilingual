@@ -1,0 +1,22 @@
+{{ define "main" }}
+<p>{{ .Content }}</p>
+
+<hr>
+{{ if .PrevInSection }}
+<a href="{{ .PrevInSection.Permalink }}">Prev</a>
+{{ else }}
+Prev
+{{ end }}
+
+|
+
+{{ if .NextInSection }}
+<a href="{{ .NextInSection.Permalink}}">Next</a>
+{{ else }}
+Next
+{{ end }}
+
+<hr>
+<a href="../">{{ .Parent.Title }}</a>
+<a href="/">Homepage</a>
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<p>{{ .Content }}</p>
+
+<h3>Pages</h3>
+
+{{ range .Data.Pages }}
+<li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
+
+<hr>
+<a href="/">Homepage</a>
+{{ end }}
