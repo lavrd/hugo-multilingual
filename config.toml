@@ -1,4 +1,4 @@
-baseURL = "https://spacelavr.github.io/hugo-multilingual/"
+baseURL = "http://localhost:1313/"
 copyright = "MIT"
 
 [languages]
