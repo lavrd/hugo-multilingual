@@ -7,3 +7,8 @@ Hugo simple multilingual site example
 3. `cd hugo-multi-lang`
 4. `hugo server`
 5.  Open `http://localhost:1313/` in your browser
+
+## Docker
+- `docker build -t hm .`
+- `docker run -d -p 1313:1313 --name hm hm`
+- Open `http://localhost:1313/` in your browser
