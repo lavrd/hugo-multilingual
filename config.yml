@@ -6,6 +6,6 @@ languages:
     title: Hugo multilingual site
     weight: 1
   ru:
-    baseURL: http://localhost:1212/
+    baseURL: http://localhost:1314/
     title: Многоязычный сайт на Hugo
     weight: 2
