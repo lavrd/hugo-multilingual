@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Посты on Многоязычный сайт на Hugo</title>
+    <link>https://spacelavr.github.io/hugo-multilingual/ru/post/</link>
+    <description>Recent content in Посты on Многоязычный сайт на Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 19:16:47 +0300</lastBuildDate>
+    
+	<atom:link href="https://spacelavr.github.io/hugo-multilingual/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Пост №3</title>
+      <link>https://spacelavr.github.io/hugo-multilingual/ru/post/3/</link>
+      <pubDate>Thu, 14 Sep 2017 19:15:45 +0300</pubDate>
+      
+      <guid>https://spacelavr.github.io/hugo-multilingual/ru/post/3/</guid>
+      <description>Данные в content/post/3.ru.md</description>
+    </item>
+    
+    <item>
+      <title>Пост №2</title>
+      <link>https://spacelavr.github.io/hugo-multilingual/ru/post/2/</link>
+      <pubDate>Thu, 14 Sep 2017 19:15:43 +0300</pubDate>
+      
+      <guid>https://spacelavr.github.io/hugo-multilingual/ru/post/2/</guid>
+      <description>Данные в content/post/2.ru.md</description>
+    </item>
+    
+    <item>
+      <title>Пост №1</title>
+      <link>https://spacelavr.github.io/hugo-multilingual/ru/post/1/</link>
+      <pubDate>Thu, 14 Sep 2017 19:00:29 +0300</pubDate>
+      
+      <guid>https://spacelavr.github.io/hugo-multilingual/ru/post/1/</guid>
+      <description>Данные в content/post/1.ru.md</description>
+    </item>
+    
+  </channel>
+</rss>
