@@ -1,0 +1,11 @@
+DefaultContentLanguage: en
+copyright: MIT
+languages:
+  en:
+    baseURL: http://localhost:1313/
+    title: Hugo multilingual site
+    weight: 1
+  ru:
+    baseURL: http://localhost:1212/
+    title: Многоязычный сайт на Hugo
+    weight: 2
